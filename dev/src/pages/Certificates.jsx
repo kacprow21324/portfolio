@@ -69,7 +69,7 @@ export default function CertificateList() {
           >
             <span style={{ width: '2rem', fontWeight: 'bold', flexShrink: 0 }}>{cert.id}.</span>
             <img
-              src={process.env.PUBLIC_URL + cert.logo}
+              src={cert.logo}
               alt={cert.name}
               style={{ width: '2rem', height: '2rem', objectFit: 'contain', flexShrink: 0 }}
             />
