@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "logo": "https://cdn.simpleicons.org/cisco/049FD9",
+    "name": "Podstawy IT",
+    "issuer": "Cisco",
+    "year": 2021,
+    "category": "general"
+  },
+  {
+    "id": 2,
+    "logo": "https://cdn.simpleicons.org/cisco/049FD9",
+    "name": "CCNA: Introduction to Networks",
+    "issuer": "Cisco",
+    "year": 2025,
+    "category": "network"
+  }
+]
