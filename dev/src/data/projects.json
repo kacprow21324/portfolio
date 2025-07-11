@@ -1,14 +1,14 @@
 [
   {
     "title": "Autonomiczny Pojazd z STM32",
-    "imageSrc": "/images/p1.jpg",
+    "imageSrc": "images/p1.jpg",
     "techStack": ["C", "STM32"],
     "description": "Projekt zakłada stworzenie zaawansowanego modelu pojazdu autonomicznego opartego na mikrokontrolerze STM32F3Discovery, który może funkcjonować w dwóch trybach działania: półautomatycznym oraz w pełni autonomicznym. W trybie półautomatycznym pojazd realizuje komendy wydawane przez użytkownika za pośrednictwem interfejsu UART, który umożliwia komunikację np. za pomocą modułu Bluetooth HC-05. W trybie automatycznym pojazd samodzielnie analizuje otoczenie przy użyciu zestawu sensorów ultradźwiękowych (HC-SR04) oraz optycznych (czujniki IR TCRT5000), co pozwala mu wykrywać i zatrzymać się jeżeli wykryje daną przeszkode oraz precyzyjnie podążać za namalowaną na podłożu linią trasy. Sterowanie napędem jest realizowane za pomocą sygnałów PWM generowanych przez wbudowane timery mikrokontrolera, umożliwiających precyzyjną regulację prędkości jazdy oraz płynność manewrów. System sterowania opiera się na efektywnej obsłudze przerwań oraz ewentualnie na systemie operacyjnym czasu rzeczywistego (RTOS), zapewniającym dokładne zarządzanie zadaniami. Użytkownik poprzez komendy UART może dynamicznie zmieniać parametry jazdy, odczytywać aktualny stan czujników oraz przełączać tryby pracy pojazdu, co umożliwia pełną kontrolę oraz analizę danych w czasie rzeczywistym.",
     "link": "https://github.com/kacprow21324/STM32F3Discovery-Autonomiczny-Pojazd"
   },
   {
     "title": "Web Scraping",
-    "imageSrc": "/images/p2.jpg",
+    "imageSrc": "images/p2.jpg",
     "techStack": ["Python", "Docker","Redis"],
     "description": "Niniejsza aplikacja to rozproszony system do automatycznego pobierania, selekcjonowania i przechowywania danych z witryn internetowych, zgodnie z uprzednio zdefiniowanym profilem danych. Celem projektu jest stworzenie skalowalnego i modularnego narzędzia do web scrapingu, które może funkcjonować w środowisku wieloprocesorowym i rozproszonym.",
     "link": "https://github.com/kacprow21324/Scraper"
