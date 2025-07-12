@@ -1,15 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
+import './App.css';
 import App from './App';
-import './App.css'
 
-const rootElement = document.getElementById('root');
+const container = document.getElementById('root');
+const root = createRoot(container);
 
-ReactDOM.createRoot(rootElement).render(
+root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
